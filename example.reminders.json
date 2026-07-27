@@ -1,0 +1,70 @@
+[
+  {
+    "id": "daily-check",
+    "recipient": "USER_1",
+    "title": "Daily Reminder",
+    "message": "This is your daily reminder.",
+    "time": "09:00",
+    "repeat": "daily",
+    "priority": 10
+  },
+  {
+    "id": "weekday-task",
+    "recipient": "ALL",
+    "title": "Weekday Reminder",
+    "message": "This reminder runs on weekdays.",
+    "time": "08:30",
+    "repeat": "weekdays",
+    "priority": 10
+  },
+  {
+    "id": "weekly-task",
+    "recipient": "USER_2",
+    "title": "Weekly Reminder",
+    "message": "This reminder repeats every week.",
+    "date": "2026-01-05",
+    "time": "12:00",
+    "repeat": "weekly",
+    "priority": 5
+  },
+  {
+    "id": "biweekly-task",
+    "recipient": "USER_1",
+    "title": "Biweekly Reminder",
+    "message": "This reminder repeats every two weeks.",
+    "date": "2026-01-05",
+    "time": "14:00",
+    "repeat": "biweekly",
+    "priority": 5
+  },
+  {
+    "id": "quarterly-task",
+    "recipient": "USER_1",
+    "title": "Quarterly Reminder",
+    "message": "This reminder repeats every three months.",
+    "date": "2026-01-15",
+    "time": "10:00",
+    "repeat": "quarterly",
+    "priority": 5
+  },
+  {
+    "id": "yearly-task",
+    "recipient": "USER_2",
+    "title": "Yearly Reminder",
+    "message": "This reminder repeats once a year.",
+    "date": "2026-03-01",
+    "time": "09:00",
+    "repeat": "yearly",
+    "priority": 5
+  },
+  {
+    "id": "one-time-task",
+    "recipient": "USER_1",
+    "title": "One Time Reminder",
+    "message": "This reminder only happens once.",
+    "date": "2026-12-01",
+    "time": "18:00",
+    "repeat": "none",
+    "priority": 10
+  }
+]
