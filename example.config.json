@@ -1,0 +1,11 @@
+{
+  "gotify_url": "http://gotify:80",
+  "users": {
+    "USER_1": {
+      "token": "USER_1_GOTIFY_APP_TOKEN"
+    },
+    "USER_2": {
+      "token": "USER_2_GOTIFY_APP_TOKEN"
+    }
+  }
+}
