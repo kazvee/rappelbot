@@ -1,0 +1,19 @@
+services:
+  rappelbot:
+    build: .
+    container_name: rappelbot
+    restart: unless-stopped
+
+    env_file:
+      - .env
+
+    volumes:
+      - ./config.json:/app/config.json
+      - ./reminders.json:/app/reminders.json
+
+    networks:
+      - rappelbot-network
+
+networks:
+  rappelbot-network:
+    external: true
